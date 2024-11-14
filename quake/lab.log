@@ -7,72 +7,142 @@ Input file: C:\Users\Mallios\Documents\GitHub\QuakeMapSinglePlayer\quake\lab-com
 Output file: C:\Users\Mallios\Documents\GitHub\QuakeMapSinglePlayer\quake\lab.bsp
 
 INFO: using built-in palette.
-     2 entities
-     2 unique textures
-     7 texinfos
-    12 unique planes
+    1,085 entities
+       45 unique textures
+    3,848 texinfos
+    9,756 unique planes
 
-INFO: world extents calculated to 328 units
-    1 brushes
-    6 sides
+INFO: world extents calculated to 4424 units
+     3,575 brushes
+    20,911 sides
+    10,927 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
+WARNING: unable to find texture C190
+WARNING: unable to find texture rpal335
+WARNING: unable to find texture mtlflt02
+WARNING: unable to find texture cncrt01
+WARNING: unable to find texture arcceil
+WARNING: unable to find texture vtmet6b
+WARNING: unable to find texture stone02
+WARNING: unable to find texture C103
+WARNING: unable to find texture rsmetfill3b
+WARNING: unable to find texture blueice
+WARNING: unable to find texture snow1
+WARNING: unable to find texture ttex020
+WARNING: unable to find texture {copgrate
+WARNING: unable to find texture rtex181
+WARNING: unable to find texture rpal365
+WARNING: unable to find texture her2crat2
+WARNING: unable to find texture trntile4
+WARNING: unable to find texture C130
+WARNING: unable to find texture sky000m
+WARNING: unable to find texture alcwall9
+WARNING: unable to find texture cncrt01blue
+WARNING: unable to find texture dfmetalfill4a
+WARNING: unable to find texture trim01
+WARNING: unable to find texture {swvine
+WARNING: unable to find texture {web1
+WARNING: unable to find texture {web3
+WARNING: unable to find texture {web2
+WARNING: unable to find texture wall06
+WARNING: unable to find texture grass01
+WARNING: unable to find texture swamp03
+WARNING: unable to find texture rsmetfill3q
+WARNING: unable to find texture screen
 Processing hull 0...
-    1 SOLID brushes
-    1 brushes total
-    6 visible sides
-INFO: calculating BSP for 1 brushes with 6 sides
-    1 brushes
-    6 visible faces
-    6 nodes
-    6 expensive split nodes
-    7 leaves
-    6 EMPTY leafs
-    1 SOLID leafs
-    7 leafs total
-    7 max tree height
-    4 avg tree height
-    36 tree portals
-WARNING: Reached occupant "info_player_start" at (0 0 40), no filling performed.
-Leak file written to lab.pts
-            1 portals written to lab.leak.prt
-    36 tree portals
-    6 sides visible
-    6 makefaces
-    6 EMPTY leafs
-    1 SOLID leafs
-    7 leafs total
-    7 max tree height
-    4 avg tree height
-     6 faces optimized through MWT
-    12 triangles computed from MWT
-    12 edges
-     6 faces
+    1,810 SOLID brushes
+        6 SKY brushes
+       13 DETAIL_WALL | Q2_UNUSED_8 brushes
+    1,718 MIST | Q2_UNUSED_8 brushes
+    3,547 brushes total
+    20,753 visible sides
+INFO: calculating BSP for 3547 brushes with 20753 sides
+     3,547 brushes
+    20,753 visible faces
+    23,022 nodes
+    18,779 expensive split nodes
+     4,243 mid-split nodes
+    23,023 leaves
+    12,377 EMPTY leafs
+     8,395 SOLID leafs
+        31 SKY leafs
+     2,199 MIST | Q2_UNUSED_8 leafs
+        21 DETAIL_WALL | Q2_UNUSED_8 leafs
+    23,023 leafs total
+    61 max tree height
+    20 avg tree height
+    141 tiny portals
+    103,242 tree portals
+    1,607 outside leaves
+    0 detail filled leafs
+     3,547 brushes
+    15,222 visible faces
+     5,531 non-visible faces
+    14,885 nodes
+     2,350 non-visible nodes
+    14,885 expensive split nodes
+    14,886 leaves
+     7,598 EMPTY leafs
+     5,340 SOLID leafs
+        14 SKY leafs
+     1,919 MIST | Q2_UNUSED_8 leafs
+        15 DETAIL_WALL | Q2_UNUSED_8 leafs
+    14,886 leafs total
+    59 max tree height
+    21 avg tree height
+    72 tiny portals
+    73,239 tree portals
+    625 outside leaves
+    0 detail filled leafs
+    72 tiny portals
+    73,239 tree portals
+    27,900 sides visible
+    26,390 makefaces
+    10,742 merged
+     2,093 subdivided
+    3,261 nodes pruned
+    20 tiny portals
+     8,906 player-occupiable leaves
+     4,372 clusters of leaves
+    17,485 vis portals
+     2,719 SOLID leafs
+        14 SKY leafs
+     6,973 EMPTY leafs
+     1,919 MIST | Q2_UNUSED_8 leafs
+    11,625 leafs total
+    59 max tree height
+    20 avg tree height
+         1 edges degenerated
+    11,621 edges added by tjunctions
+    15,335 faces optimized through MWT
+    43,355 triangles computed from MWT
+     3,583 faces created via optimization of MWT triangles
+    45,389 edges
+    21,324 faces
 Processing hull 1...
-WARNING: Reached occupant "info_player_start" at (0 0 40), no filling performed.
 Processing hull 2...
-WARNING: Reached occupant "info_player_start" at (0 0 40), no filling performed.
 Writing lab.bsp as Quake BSP bsp29
 Wrote lab.bsp
 
 count   lump name    byte size 
-      1 models               64
-     17 planes              340
-      8 vertexes             96
-      6 nodes               144
-      6 texinfos            240
-      6 faces               120
-     12 clipnodes            96
-      7 leafs               196
-      6 marksurfaces         12
-     13 edges                52
-     24 surfedges            96
-      2 textures          21812
+      4 models              256
+   8274 planes           165480
+  23976 vertexes         287712
+  11703 nodes            280872
+   3052 texinfos         122080
+  21458 faces            429160
+  18943 clipnodes        151544
+   8989 leafs            251692
+  31204 marksurfaces      62408
+  45665 edges            182660
+  88943 surfedges        355772
+     45 textures         261784
         lightdata             0
         visdata               0
-        entdata             211
+        entdata           29240
 
-0.008s seconds elapsed
+5.046s seconds elapsed
 
 
