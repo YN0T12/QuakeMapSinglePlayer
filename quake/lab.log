@@ -7,15 +7,15 @@ Input file: C:\Users\Mallios\Documents\GitHub\QuakeMapSinglePlayer\quake\lab-com
 Output file: C:\Users\Mallios\Documents\GitHub\QuakeMapSinglePlayer\quake\lab.bsp
 
 INFO: using built-in palette.
-    1,026 entities
+    1,000 entities
        41 unique textures
-    3,723 texinfos
-    9,496 unique planes
+    3,663 texinfos
+    9,310 unique planes
 
 INFO: world extents calculated to 4424 units
-     3,388 brushes
-    19,935 sides
-    10,527 side bevels
+     3,295 brushes
+    19,458 sides
+    10,261 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
@@ -47,76 +47,93 @@ WARNING: unable to find texture swamp03
 WARNING: unable to find texture rsmetfill3q
 WARNING: unable to find texture screen
 Processing hull 0...
-    1,771 SOLID brushes
+    1,769 SOLID brushes
        13 DETAIL_WALL | Q2_UNUSED_8 brushes
-    1,577 MIST | Q2_UNUSED_8 brushes
-    3,361 brushes total
-    19,783 visible sides
-INFO: calculating BSP for 3361 brushes with 19783 sides
-     3,361 brushes
-    19,783 visible faces
-    22,708 nodes
-    17,813 expensive split nodes
+    1,486 MIST | Q2_UNUSED_8 brushes
+    3,268 brushes total
+    19,306 visible sides
+INFO: calculating BSP for 3268 brushes with 19306 sides
+     3,268 brushes
+    19,306 visible faces
+    22,481 nodes
+    17,586 expensive split nodes
      4,895 mid-split nodes
-    22,709 leaves
-    12,172 EMPTY leafs
-     8,450 SOLID leafs
-     2,066 MIST | Q2_UNUSED_8 leafs
+    22,482 leaves
+    12,035 EMPTY leafs
+     8,458 SOLID leafs
+     1,968 MIST | Q2_UNUSED_8 leafs
         21 DETAIL_WALL | Q2_UNUSED_8 leafs
-    22,709 leafs total
+    22,482 leafs total
     61 max tree height
     20 avg tree height
-    134 tiny portals
-    101,430 tree portals
-WARNING: Reached occupant "light" at (1248 -688 440), no filling performed.
-Leak file written to lab.pts
-           11 portals written to lab.leak.prt
-    134 tiny portals
-    101,430 tree portals
-WARNING: 1 sides not found (use -verbose to display)
-    35,249 sides visible
-    33,831 makefaces
-    10,036 merged
-     3,887 subdivided
-    2,131 nodes pruned
-    12,172 EMPTY leafs
-     6,340 SOLID leafs
-     2,066 MIST | Q2_UNUSED_8 leafs
-    20,578 leafs total
-    61 max tree height
-    19 avg tree height
-    14,605 edges added by tjunctions
-    24,806 faces optimized through MWT
-    65,387 triangles computed from MWT
-     4,013 faces created via optimization of MWT triangles
-    67,150 edges
-    31,695 faces
+    133 tiny portals
+    100,327 tree portals
+    1,678 outside leaves
+    0 detail filled leafs
+     3,268 brushes
+    14,050 visible faces
+     5,256 non-visible faces
+    14,057 nodes
+     2,210 non-visible nodes
+    14,057 expensive split nodes
+    14,058 leaves
+     7,183 EMPTY leafs
+     5,199 SOLID leafs
+     1,662 MIST | Q2_UNUSED_8 leafs
+        14 DETAIL_WALL | Q2_UNUSED_8 leafs
+    14,058 leafs total
+    59 max tree height
+    21 avg tree height
+    77 tiny portals
+    69,287 tree portals
+    545 outside leaves
+    0 detail filled leafs
+    77 tiny portals
+    69,287 tree portals
+    26,430 sides visible
+    25,114 makefaces
+    10,262 merged
+     2,010 subdivided
+    3,096 nodes pruned
+    23 tiny portals
+     8,300 player-occupiable leaves
+     4,333 clusters of leaves
+    17,009 vis portals
+     2,662 SOLID leafs
+     6,638 EMPTY leafs
+     1,662 MIST | Q2_UNUSED_8 leafs
+    10,962 leafs total
+    59 max tree height
+    20 avg tree height
+         1 edges degenerated
+    11,255 edges added by tjunctions
+    14,524 faces optimized through MWT
+    41,338 triangles computed from MWT
+     3,468 faces created via optimization of MWT triangles
+    43,239 edges
+    20,330 faces
 Processing hull 1...
-WARNING: Reached occupant "info_player_deathmatch" at (1440 -704 296), no filling performed.
 Processing hull 2...
-WARNING: Reached occupant "info_player_deathmatch" at (1440 -704 296), no filling performed.
-LIMITS EXCEEDED ON dclipnode_t::children
-NOTE: limits exceeded for Quake BSP - switching to Quake BSP2
-Writing lab.bsp as Quake BSP2 bsp2
+Writing lab.bsp as Quake BSP bsp29
 Wrote lab.bsp
 
 count   lump name    byte size 
       3 models              192
-  13182 planes           263640
-  34850 vertexes         418200
-  20650 nodes            908600
-   2981 texinfos         119240
-  31823 faces            891044
- 193348 clipnodes       2320176
-  14314 leafs            629816
-  40651 marksurfaces     162604
-  67414 edges            539312
- 132163 surfedges        528652
+   8102 planes           162040
+  22793 vertexes         273516
+  11034 nodes            264816
+   2907 texinfos         116280
+  20458 faces            409160
+  18487 clipnodes        147896
+   8376 leafs            234528
+  29433 marksurfaces      58866
+  43503 edges            174012
+  84846 surfedges        339384
      41 textures         283568
         lightdata             0
         visdata               0
-        entdata           28035
+        entdata           27769
 
-2.841s seconds elapsed
+4.674s seconds elapsed
 
 
