@@ -3,118 +3,114 @@
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
 
-Input file: D:\GitHub\QuakeMapSinglePlayer\quake\lab-compile.map
-Output file: D:\GitHub\QuakeMapSinglePlayer\quake\lab.bsp
+Input file: C:\Users\yn0tm\OneDrive\Documents\GitHub\QuakeMapSinglePlayer\quake\lab-compile.map
+Output file: C:\Users\yn0tm\OneDrive\Documents\GitHub\QuakeMapSinglePlayer\quake\lab.bsp
 
 INFO: using built-in palette.
 fs::addArchive: WARNING: archive 'C:/quake-leveldesign-starterkit-20241007-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
-    1,008 entities
-       42 unique textures
-    3,632 texinfos
-    9,296 unique planes
+fs::addArchive: WARNING: archive 'D:/quake-leveldesign-starterkit-20240930-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
+     1,369 entities
+        37 unique textures
+     5,712 texinfos
+    12,400 unique planes
 
 INFO: world extents calculated to 4424 units
-     3,299 brushes
-    19,499 sides
-    10,168 side bevels
+     4,094 brushes
+    25,666 sides
+    11,955 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
 WARNING: unable to find texture C190
-WARNING: unable to find texture rpal335
-WARNING: unable to find texture arcceil
-WARNING: unable to find texture vtmet6b
-WARNING: unable to find texture stone02
-WARNING: unable to find texture C103
-WARNING: unable to find texture rsmetfill3b
-WARNING: unable to find texture mtlflt02
 WARNING: unable to find texture blueice
-WARNING: unable to find texture snow1
-WARNING: unable to find texture ttex020
 WARNING: unable to find texture rtex181
-WARNING: unable to find texture her2crat2
-WARNING: unable to find texture trntile4
-WARNING: unable to find texture C130
 WARNING: unable to find texture alcwall9
-WARNING: unable to find texture cncrt01blue
+WARNING: unable to find texture trntile4
+WARNING: unable to find texture rpal335
+WARNING: unable to find texture ttex020
 WARNING: unable to find texture cncrt01
-WARNING: unable to find texture trim01
+WARNING: unable to find texture mtlflt02
 WARNING: unable to find texture {swvine
 WARNING: unable to find texture {web1
 WARNING: unable to find texture {web3
 WARNING: unable to find texture {web2
 WARNING: unable to find texture grass01
-WARNING: unable to find texture swamp03
+WARNING: unable to find texture arcceil
+WARNING: unable to find texture vtmet6b
 WARNING: unable to find texture rsmetfill3q
 WARNING: unable to find texture screen
 Processing hull 0...
-    1,783 SOLID brushes
+    2,255 SOLID brushes
        13 DETAIL_WALL | Q2_UNUSED_8 brushes
-    1,477 MIST | Q2_UNUSED_8 brushes
-    3,273 brushes total
-    19,345 visible sides
-INFO: calculating BSP for 3273 brushes with 19345 sides
-     3,273 brushes
-    19,345 visible faces
-    21,136 nodes
-    16,755 expensive split nodes
-     4,381 mid-split nodes
-    21,137 leaves
-    11,434 EMPTY leafs
-     7,751 SOLID leafs
-     1,931 MIST | Q2_UNUSED_8 leafs
-        21 DETAIL_WALL | Q2_UNUSED_8 leafs
-    21,137 leafs total
+    1,618 MIST | Q2_UNUSED_8 brushes
+    3,886 brushes total
+    24,464 visible sides
+INFO: calculating BSP for 3886 brushes with 24464 sides
+     3,886 brushes
+    24,464 visible faces
+    21,746 nodes
+    21,321 expensive split nodes
+       425 mid-split nodes
+    21,747 leaves
+    12,498 EMPTY leafs
+     7,350 SOLID leafs
+     1,871 MIST | Q2_UNUSED_8 leafs
+        28 DETAIL_WALL | Q2_UNUSED_8 leafs
+    21,747 leafs total
     61 max tree height
     20 avg tree height
-    128 tiny portals
-    95,728 tree portals
-WARNING: Reached occupant "info_player_deathmatch" at (576 -1528 552), no filling performed.
+    89 tiny portals
+    100,644 tree portals
+WARNING: Reached occupant "light" at (-128 -1440 560), no filling performed.
 Leak file written to lab.pts
-            8 portals written to lab.leak.prt
-    128 tiny portals
-    95,728 tree portals
-WARNING: 1 sides not found (use -verbose to display)
-    33,622 sides visible
-    32,299 makefaces
-     9,912 merged
-     3,698 subdivided
-    1,991 nodes pruned
-    11,434 EMPTY leafs
-     5,781 SOLID leafs
-     1,931 MIST | Q2_UNUSED_8 leafs
-    19,146 leafs total
+           14 portals written to lab.leak.prt
+    89 tiny portals
+    100,644 tree portals
+    37,870 sides visible
+    36,414 makefaces
+    11,769 merged
+     3,047 subdivided
+    1,838 nodes pruned
+    12,498 EMPTY leafs
+     5,540 SOLID leafs
+     1,871 MIST | Q2_UNUSED_8 leafs
+    19,909 leafs total
     61 max tree height
-    19 avg tree height
-    14,142 edges added by tjunctions
-    23,275 faces optimized through MWT
-    61,867 triangles computed from MWT
-     3,922 faces created via optimization of MWT triangles
-    63,581 edges
-    30,007 faces
+    20 avg tree height
+         1 edges degenerated
+    15,179 edges added by tjunctions
+    24,131 faces optimized through MWT
+    65,308 triangles computed from MWT
+     4,446 faces created via optimization of MWT triangles
+    67,932 edges
+    32,138 faces
 Processing hull 1...
+WARNING: Reached occupant "monster_zombie" at (872 -464 584), no filling performed.
 Processing hull 2...
-WARNING: worldspawn at 0 0 0 has long value for key wad (length 199 >= 127)
-Writing lab.bsp as Quake BSP bsp29
+WARNING: Reached occupant "monster_shambler" at (608 -960 616), no filling performed.
+WARNING: worldspawn at 0 0 0 has long value for key wad (length 299 >= 127)
+LIMITS EXCEEDED ON dclipnode_t::children
+NOTE: limits exceeded for Quake BSP - switching to Quake BSP2
+Writing lab.bsp as Quake BSP2 bsp2
 Wrote lab.bsp
 
 count   lump name    byte size 
-     14 models              896
-   8203 planes           164060
-  33024 vertexes         396288
-  19260 nodes            462240
-   2925 texinfos         117000
-  30161 faces            603220
-  17602 clipnodes        140816
-  13494 leafs            377832
-  38931 marksurfaces      77862
-  63892 edges            255568
- 125307 surfedges        501228
-     42 textures         305372
+     86 models             5504
+  15933 planes           318660
+  36772 vertexes         441264
+  20938 nodes            921272
+   4968 texinfos         198720
+  33844 faces            947632
+ 250349 clipnodes       3004188
+  15485 leafs            681340
+  46333 marksurfaces     185332
+  71519 edges            572152
+ 140201 surfedges        560804
+     37 textures         350732
         lightdata             0
         visdata               0
-        entdata           29594
+        entdata           42893
 
-4.243s seconds elapsed
+5.257s seconds elapsed
 
 
