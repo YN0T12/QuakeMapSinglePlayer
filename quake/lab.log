@@ -3,12 +3,12 @@
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
 
-Input file: C:\Users\yn0tm\OneDrive\Documents\GitHub\QuakeMapSinglePlayer\quake\lab-compile.map
-Output file: C:\Users\yn0tm\OneDrive\Documents\GitHub\QuakeMapSinglePlayer\quake\lab.bsp
+Input file: D:\GitHub\QuakeMapSinglePlayer\quake\lab-compile.map
+Output file: D:\GitHub\QuakeMapSinglePlayer\quake\lab.bsp
 
 INFO: using built-in palette.
 fs::addArchive: WARNING: archive 'C:/quake-leveldesign-starterkit-20241007-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
-fs::addArchive: WARNING: archive 'D:/quake-leveldesign-starterkit-20240930-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
+fs::addArchive: WARNING: archive 'C:/quake-leveldesign-starterkit-20240923-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
      1,369 entities
         37 unique textures
      5,712 texinfos
@@ -111,6 +111,6 @@ count   lump name    byte size
         visdata               0
         entdata           42893
 
-5.257s seconds elapsed
+3.740s seconds elapsed
 
 

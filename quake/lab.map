@@ -36621,7 +36621,7 @@
 "angle" "-1"
 "lip" "4"
 "sounds" "3"
-"wait" "5"
+"wait" "-1"
 "targetname" "BigDoor"
 // brush 0
 {
