@@ -17,3 +17,11 @@ The production value for the map was obviously still lacking as the map still ut
 
 ### Engagement
 I think for the most part the level might've been a bit too easy aside from the difficult storage room as discussed in Pacing but I think the map overall was still fun to play and had a good gimmick to it. One glaring issue however was the final boss fight as you were able to easily cheese out the 4 Shambler enemies from the balcony which I never tried in my own playtests. That will be something I need to fix.
+
+### Summary
+
+I think the biggest issues I need to fix now is:
+1. The Storage Room and general pacing
+2. The 2nd floor button hunt
+3. The buttons and crates
+4. The missing textures
