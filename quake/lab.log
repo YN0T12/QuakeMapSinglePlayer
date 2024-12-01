@@ -9,85 +9,76 @@ Output file: C:\Users\yn0tm\OneDrive\Documents\GitHub\QuakeMapSinglePlayer\quake
 INFO: using built-in palette.
 fs::addArchive: WARNING: archive 'C:/quake-leveldesign-starterkit-20241007-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
 fs::addArchive: WARNING: archive 'D:/quake-leveldesign-starterkit-20240930-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
-     1,378 entities
-        37 unique textures
-     5,656 texinfos
-    12,354 unique planes
+     1,382 entities
+        28 unique textures
+     5,445 texinfos
+    12,348 unique planes
 
 INFO: world extents calculated to 4424 units
-     4,089 brushes
-    25,570 sides
-    11,931 side bevels
+     4,126 brushes
+    25,792 sides
+    11,919 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
-WARNING: unable to find texture C190
 WARNING: unable to find texture blueice
+WARNING: unable to find texture C190
 WARNING: unable to find texture rtex181
 WARNING: unable to find texture alcwall9
-WARNING: unable to find texture trntile4
 WARNING: unable to find texture rpal335
 WARNING: unable to find texture ttex020
 WARNING: unable to find texture cncrt01
 WARNING: unable to find texture mtlflt02
 WARNING: unable to find texture {swvine
-WARNING: unable to find texture {web1
-WARNING: unable to find texture {web3
-WARNING: unable to find texture {web2
-WARNING: unable to find texture grass01
-WARNING: unable to find texture arcceil
-WARNING: unable to find texture vtmet6b
-WARNING: unable to find texture rsmetfill3q
-WARNING: unable to find texture screen
 Processing hull 0...
-    2,241 SOLID brushes
+    2,237 SOLID brushes
        13 DETAIL_WALL | Q2_UNUSED_8 brushes
     1,618 MIST | Q2_UNUSED_8 brushes
-    3,872 brushes total
-    24,320 visible sides
-INFO: calculating BSP for 3872 brushes with 24320 sides
-     3,872 brushes
-    24,320 visible faces
-    21,768 nodes
-    21,331 expensive split nodes
+    3,868 brushes total
+    24,296 visible sides
+INFO: calculating BSP for 3868 brushes with 24296 sides
+     3,868 brushes
+    24,296 visible faces
+    21,790 nodes
+    21,353 expensive split nodes
        437 mid-split nodes
-    21,769 leaves
-    12,459 EMPTY leafs
-     7,410 SOLID leafs
+    21,791 leaves
+    12,523 EMPTY leafs
+     7,368 SOLID leafs
      1,871 MIST | Q2_UNUSED_8 leafs
         29 DETAIL_WALL | Q2_UNUSED_8 leafs
-    21,769 leafs total
+    21,791 leafs total
     61 max tree height
     20 avg tree height
     90 tiny portals
-    100,800 tree portals
+    100,795 tree portals
 WARNING: Reached occupant "light" at (-128 -1440 560), no filling performed.
 Leak file written to lab.pts
-           14 portals written to lab.leak.prt
+           13 portals written to lab.leak.prt
     90 tiny portals
-    100,800 tree portals
-    37,912 sides visible
-    36,455 makefaces
-    11,810 merged
-     3,049 subdivided
-    1,845 nodes pruned
-    12,459 EMPTY leafs
-     5,594 SOLID leafs
+    100,795 tree portals
+    37,852 sides visible
+    36,396 makefaces
+    11,860 merged
+     3,193 subdivided
+    1,837 nodes pruned
+    12,523 EMPTY leafs
+     5,560 SOLID leafs
      1,871 MIST | Q2_UNUSED_8 leafs
-    19,924 leafs total
+    19,954 leafs total
     61 max tree height
     20 avg tree height
          1 edges degenerated
-    15,265 edges added by tjunctions
-    24,160 faces optimized through MWT
-    65,428 triangles computed from MWT
-     4,446 faces created via optimization of MWT triangles
-    67,983 edges
-    32,140 faces
+    15,832 edges added by tjunctions
+    24,207 faces optimized through MWT
+    66,074 triangles computed from MWT
+     4,607 faces created via optimization of MWT triangles
+    68,495 edges
+    32,336 faces
 Processing hull 1...
-WARNING: Reached occupant "monster_zombie" at (872 -464 584), no filling performed.
+WARNING: Reached occupant "light" at (1024 -288 560), no filling performed.
 Processing hull 2...
-WARNING: Reached occupant "monster_shambler" at (608 -960 616), no filling performed.
+WARNING: Reached occupant "monster_zombie" at (1312 -752 808), no filling performed.
 WARNING: worldspawn at 0 0 0 has long value for key wad (length 299 >= 127)
 LIMITS EXCEEDED ON dclipnode_t::children
 NOTE: limits exceeded for Quake BSP - switching to Quake BSP2
@@ -95,22 +86,22 @@ Writing lab.bsp as Quake BSP2 bsp2
 Wrote lab.bsp
 
 count   lump name    byte size 
-     92 models             5888
-  15908 planes           318160
-  36848 vertexes         442176
-  20984 nodes            923296
-   4912 texinfos         196480
-  33878 faces            948584
- 249955 clipnodes       2999460
-  15483 leafs            681252
-  46377 marksurfaces     185508
-  71624 edges            572992
- 140410 surfedges        561640
-     37 textures         350732
+    102 models             6528
+  15975 planes           319500
+  37490 vertexes         449880
+  21136 nodes            929984
+   4734 texinfos         189360
+  34320 faces            960960
+ 256688 clipnodes       3080256
+  15679 leafs            689876
+  46430 marksurfaces     185720
+  72628 edges            581024
+ 142420 surfedges        569680
+     28 textures         350696
         lightdata             0
         visdata               0
-        entdata           44047
+        entdata           43947
 
-7.783s seconds elapsed
+8.349s seconds elapsed
 
 
