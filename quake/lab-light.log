@@ -1,6 +1,6 @@
----- light / ericw-tools 2.0.0-alpha8-32-g47faf6c0 ----
+---- light / ericw-tools 2.0.0-alpha8-29-gb2f23f76 ----
 LoadBSPFile: 'lab.bsp'
-BSP is version Quake BSP bsp29
+BSP is version Quake BSP2 bsp2
 INFO: using built-in palette.
 img::ConvertTextures: WARNING: invalid size data for 
 img::ConvertTextures: WARNING: Texture  duplicated
@@ -21,30 +21,9 @@ img::ConvertTextures: WARNING: Texture  duplicated
 img::ConvertTextures: WARNING: Texture  duplicated
 img::ConvertTextures: WARNING: Texture  duplicated
 img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
 Loading extended texinfo flags from lab.texinfo.json...
-WARNING: entity at (608 -688 304) (weapon_lightning) has empty key/value "target" ""
-413 entities read, 288 are lights.
+WARNING: entity at (1352 -696 -80) (monster_shambler) has empty key/value "target" ""
+570 entities read, 269 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
@@ -53,24 +32,24 @@ DecompressAllVis: invalid visofs for leaf 0
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
 	0 sky faces
-	15193 solid faces
+	26925 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 288 initial lights
-SetupLights: 288 after surface lights
-SetupLights: 288 after jittering
-WARNING: couldn't nudge light out of solid at 544 456 664
-Final count: 288 lights, 1 suns in use.
+SetupLights: 269 initial lights
+SetupLights: 269 after surface lights
+SetupLights: 269 after jittering
+WARNING: couldn't nudge light out of solid at 544 440 664
+WARNING: couldn't nudge light out of solid at -544 -704 304
+Final count: 269 lights, 1 suns in use.
 Colored light entities/settings detected: .lit output enabled.
 0 surface light points in use.
-WARNING: a face has exceeded max light styles (4). Use -verbose to find which faces.
-lightmap size (total): 2099232
+lightmap size (total): 2392896
 Lighting Completed.
 
 Writing lab.lit
 0 switchable light styles (32 max)
-Writing lab.bsp as Quake BSP bsp29
-0.742s seconds elapsed
+Writing lab.bsp as Quake BSP2 bsp2
+1.271s seconds elapsed
 0 empty lightmaps
 
 
