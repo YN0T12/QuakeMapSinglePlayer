@@ -2,7 +2,7 @@
 
 ## Blockout 1
 
-![Video_Thumbnail](https://github.com/YN0T12/QuakeMapSinglePlayer/blob/main/Images/Quake%20Singleplayer%20Blockout%20Lab.PNG)(https://www.youtube.com/watch?v=btxqacL8PsE&ab_channel=YN0T)
+[![Video_Thumbnail](https://github.com/YN0T12/QuakeMapSinglePlayer/blob/main/Images/Quake%20Singleplayer%20Blockout%20Lab.PNG)](https://www.youtube.com/watch?v=btxqacL8PsE&ab_channel=YN0T)
 
 Watch the video above to get a look at the first blockout of the map. 
 
@@ -14,7 +14,7 @@ The final step was the basement to end the level off. I think the slow descent t
 
 ## Blockout 2
 
-![Video_Thumbnail](https://github.com/YN0T12/QuakeMapSinglePlayer/blob/main/Images/Quake%20Singleplayer%20Blockout%20Lab%202.png)(https://www.youtube.com/watch?v=HFUzl75ELGw&ab_channel=YN0T)
+[![Video_Thumbnail](https://github.com/YN0T12/QuakeMapSinglePlayer/blob/main/Images/Quake%20Singleplayer%20Blockout%20Lab%202.png)](https://www.youtube.com/watch?v=HFUzl75ELGw&ab_channel=YN0T)
 
 Watch the video above to get a look at the second blockout of this map after the results of the first [Playtest](playtesting.md).
 
