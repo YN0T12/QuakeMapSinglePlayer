@@ -1,105 +1,102 @@
----- qbsp / ericw-tools 2.0.0-alpha8-32-g47faf6c0 ----
+---- qbsp / ericw-tools 2.0.0-alpha8-29-gb2f23f76 ----
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
 
-Input file: C:\Users\Mallios\Documents\GitHub\QuakeMapSinglePlayer\quake\lab-compile.map
-Output file: C:\Users\Mallios\Documents\GitHub\QuakeMapSinglePlayer\quake\lab.bsp
+Input file: C:\Users\yn0tm\OneDrive\Documents\GitHub\QuakeMapSinglePlayer\quake\lab-compile.map
+Output file: C:\Users\yn0tm\OneDrive\Documents\GitHub\QuakeMapSinglePlayer\quake\lab.bsp
 
 INFO: using built-in palette.
+fs::addArchive: WARNING: archive 'C:/quake-leveldesign-starterkit-20241007-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
 fs::addArchive: WARNING: archive 'D:/quake-leveldesign-starterkit-20240930-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
-fs::addArchive: WARNING: archive 'C:/quake-leveldesign-starterkit-20240923-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
-     1,384 entities
-        26 unique textures
-     5,454 texinfos
-    12,352 unique planes
+     1,411 entities
+        51 unique textures
+     7,868 texinfos
+    12,970 unique planes
 
 INFO: world extents calculated to 4424 units
-     4,134 brushes
-    25,840 sides
-    11,924 side bevels
+     3,952 brushes
+    25,121 sides
+    12,278 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
-WARNING: unable to find texture blueice
-WARNING: unable to find texture C190
-WARNING: unable to find texture rtex181
-WARNING: unable to find texture alcwall9
-WARNING: unable to find texture ttex020
-WARNING: unable to find texture cncrt01
-WARNING: unable to find texture mtlflt02
 Processing hull 0...
-    2,244 SOLID brushes
-       13 DETAIL_WALL | Q2_UNUSED_8 brushes
-    1,618 MIST | Q2_UNUSED_8 brushes
-    3,875 brushes total
-    24,338 visible sides
-INFO: calculating BSP for 3875 brushes with 24338 sides
-     3,875 brushes
-    24,338 visible faces
-    21,847 nodes
-    21,408 expensive split nodes
-       439 mid-split nodes
-    21,848 leaves
-    12,559 EMPTY leafs
-     7,389 SOLID leafs
-     1,871 MIST | Q2_UNUSED_8 leafs
-        29 DETAIL_WALL | Q2_UNUSED_8 leafs
-    21,848 leafs total
-    61 max tree height
-    20 avg tree height
-    92 tiny portals
-    100,949 tree portals
-WARNING: Reached occupant "light" at (-304 -1464 560), no filling performed.
+    2,279 SOLID brushes
+       21 DETAIL_WALL | Q2_UNUSED_8 brushes
+    1,376 MIST | Q2_UNUSED_8 brushes
+       13 SKY brushes
+    3,689 brushes total
+    23,595 visible sides
+INFO: calculating BSP for 3689 brushes with 23595 sides
+     3,689 brushes
+    23,595 visible faces
+    23,546 nodes
+    23,118 expensive split nodes
+       428 mid-split nodes
+    23,547 leaves
+    12,873 EMPTY leafs
+       335 SKY leafs
+     8,639 SOLID leafs
+     1,656 MIST | Q2_UNUSED_8 leafs
+        44 DETAIL_WALL | Q2_UNUSED_8 leafs
+    23,547 leafs total
+    116 max tree height
+     25 avg tree height
+    354 tiny portals
+    108,588 tree portals
+WARNING: Reached occupant "monster_zombie" at (16 -1440 552), no filling performed.
 Leak file written to lab.pts
-           14 portals written to lab.leak.prt
-    92 tiny portals
-    100,949 tree portals
-    37,998 sides visible
-    36,542 makefaces
-    11,945 merged
-     3,203 subdivided
-    1,837 nodes pruned
-    12,559 EMPTY leafs
-     5,581 SOLID leafs
-     1,871 MIST | Q2_UNUSED_8 leafs
-    20,011 leafs total
-    61 max tree height
-    20 avg tree height
-         1 edges degenerated
-    15,817 edges added by tjunctions
-    24,279 faces optimized through MWT
-    66,202 triangles computed from MWT
-     4,616 faces created via optimization of MWT triangles
-    68,640 edges
-    32,416 faces
+           13 portals written to lab.leak.prt
+    354 tiny portals
+    108,588 tree portals
+WARNING: 2 sides not found (use -verbose to display)
+    38,573 sides visible
+    37,220 makefaces
+    11,861 merged
+     2,083 subdivided
+    2,873 nodes pruned
+    12,873 EMPTY leafs
+       335 SKY leafs
+     5,810 SOLID leafs
+     1,656 MIST | Q2_UNUSED_8 leafs
+    20,674 leafs total
+    115 max tree height
+     22 avg tree height
+         4 edges degenerated
+    15,450 edges added by tjunctions
+    23,609 faces optimized through MWT
+    64,625 triangles computed from MWT
+     4,423 faces created via optimization of MWT triangles
+    67,498 edges
+    31,865 faces
 Processing hull 1...
-WARNING: Reached occupant "light" at (1176 -1336 1096), no filling performed.
+WARNING: Reached occupant "light" at (1344 -1344 -64), no filling performed.
 Processing hull 2...
-WARNING: Reached occupant "monster_zombie" at (872 -464 584), no filling performed.
-WARNING: worldspawn at 0 0 0 has long value for key wad (length 299 >= 127)
+WARNING: Reached occupant "light" at (1344 -696 40), no filling performed.
+WARNING: worldspawn at 0 0 0 has long value for key wad (length 717 >= 127)
 LIMITS EXCEEDED ON dclipnode_t::children
 NOTE: limits exceeded for Quake BSP - switching to Quake BSP2
 Writing lab.bsp as Quake BSP2 bsp2
 Wrote lab.bsp
 
 count   lump name    byte size 
-    103 models             6592
-  15979 planes           319580
-  37562 vertexes         450744
-  21199 nodes            932756
-   4741 texinfos         189640
-  34406 faces            963368
- 256724 clipnodes       3080688
-  15722 leafs            691768
-  46685 marksurfaces     186740
-  72785 edges            582280
- 142731 surfedges        570924
-     26 textures         350688
+    107 models             6848
+  17237 planes           344740
+  36867 vertexes         442404
+  21886 nodes            962984
+   6583 texinfos         263320
+  33879 faces            948612
+ 266492 clipnodes       3197904
+  16184 leafs            712096
+  46162 marksurfaces     184648
+  71691 edges            573528
+ 140463 surfedges        561852
+     51 textures         630868
         lightdata             0
         visdata               0
-        entdata           44245
+        entdata           49338
 
-3.626s seconds elapsed
+5.145s seconds elapsed
 
 
