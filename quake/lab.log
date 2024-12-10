@@ -9,94 +9,94 @@ Output file: C:\Users\yn0tm\OneDrive\Documents\GitHub\QuakeMapSinglePlayer\quake
 INFO: using built-in palette.
 fs::addArchive: WARNING: archive 'C:/quake-leveldesign-starterkit-20241007-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
 fs::addArchive: WARNING: archive 'D:/quake-leveldesign-starterkit-20240930-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
-     1,543 entities
-        50 unique textures
-     8,761 texinfos
-    13,738 unique planes
+     1,557 entities
+        49 unique textures
+     8,820 texinfos
+    13,686 unique planes
 
 INFO: world extents calculated to 4424 units
-     4,376 brushes
-    27,281 sides
-    13,462 side bevels
+     4,381 brushes
+    27,311 sides
+    13,420 side bevels
 
-            0 texture frames added
+            2 texture frames added
 WARNING: unable to find texture skip
 Processing hull 0...
-    2,295 SOLID brushes
+    2,297 SOLID brushes
        25 DETAIL_WALL | Q2_UNUSED_8 brushes
     1,780 MIST | Q2_UNUSED_8 brushes
        13 SKY brushes
-    4,113 brushes total
-    25,755 visible sides
-INFO: calculating BSP for 4113 brushes with 25755 sides
-     4,113 brushes
-    25,755 visible faces
-    24,722 nodes
-    24,294 expensive split nodes
-       428 mid-split nodes
-    24,723 leaves
-    13,485 EMPTY leafs
-       338 SKY leafs
-     8,744 SOLID leafs
-     2,104 MIST | Q2_UNUSED_8 leafs
-        52 DETAIL_WALL | Q2_UNUSED_8 leafs
-    24,723 leafs total
+    4,115 brushes total
+    25,767 visible sides
+INFO: calculating BSP for 4115 brushes with 25767 sides
+     4,115 brushes
+    25,767 visible faces
+    24,549 nodes
+    24,129 expensive split nodes
+       420 mid-split nodes
+    24,550 leaves
+    13,381 EMPTY leafs
+       334 SKY leafs
+     8,682 SOLID leafs
+     2,103 MIST | Q2_UNUSED_8 leafs
+        50 DETAIL_WALL | Q2_UNUSED_8 leafs
+    24,550 leafs total
     116 max tree height
      25 avg tree height
-    365 tiny portals
-    114,000 tree portals
+    369 tiny portals
+    113,414 tree portals
 WARNING: Reached occupant "light" at (1088 -1664 664), no filling performed.
 Leak file written to lab.pts
            11 portals written to lab.leak.prt
-    365 tiny portals
-    114,000 tree portals
+    369 tiny portals
+    113,414 tree portals
 WARNING: 2 sides not found (use -verbose to display)
-    41,457 sides visible
-    39,752 makefaces
-    13,036 merged
-     2,085 subdivided
-    2,895 nodes pruned
-    13,485 EMPTY leafs
-       338 SKY leafs
-     5,901 SOLID leafs
-     2,104 MIST | Q2_UNUSED_8 leafs
-    21,828 leafs total
+    41,358 sides visible
+    39,655 makefaces
+    13,001 merged
+     2,130 subdivided
+    2,899 nodes pruned
+    13,381 EMPTY leafs
+       334 SKY leafs
+     5,833 SOLID leafs
+     2,103 MIST | Q2_UNUSED_8 leafs
+    21,651 leafs total
     115 max tree height
      22 avg tree height
          4 edges degenerated
-    15,931 edges added by tjunctions
-    24,838 faces optimized through MWT
-    67,566 triangles computed from MWT
-     4,520 faces created via optimization of MWT triangles
-    70,713 edges
-    33,321 faces
+    15,988 edges added by tjunctions
+    24,833 faces optimized through MWT
+    67,612 triangles computed from MWT
+     4,572 faces created via optimization of MWT triangles
+    70,768 edges
+    33,356 faces
 Processing hull 1...
-WARNING: Reached occupant "light" at (1088 -1664 664), no filling performed.
+WARNING: Reached occupant "light" at (1344 -1344 -64), no filling performed.
 Processing hull 2...
 WARNING: Reached occupant "light" at (1088 -1664 664), no filling performed.
-WARNING: worldspawn at 0 0 0 has long value for key wad (length 717 >= 127)
+WARNING: worldspawn at 0 0 0 has long value for key wad (length 819 >= 127)
 LIMITS EXCEEDED ON dclipnode_t::children
 NOTE: limits exceeded for Quake BSP - switching to Quake BSP2
 Writing lab.bsp as Quake BSP2 bsp2
 Wrote lab.bsp
 
 count   lump name    byte size 
-    107 models             6848
-  17604 planes           352080
-  38647 vertexes         463764
-  23040 nodes           1013760
-   7219 texinfos         288760
-  35335 faces            989380
- 268453 clipnodes       3221436
-  17247 leafs            758868
-  48948 marksurfaces     195792
-  74906 edges            599248
- 146446 surfedges        585784
-     50 textures         609064
+    110 models             7040
+  17473 planes           349460
+  38665 vertexes         463980
+  22881 nodes           1006764
+   7270 texinfos         290800
+  35383 faces            990724
+ 271045 clipnodes       3252540
+  17159 leafs            754996
+  48954 marksurfaces     195816
+  74986 edges            599888
+ 146600 surfedges        586400
+     51 textures         591088
         lightdata             0
         visdata               0
-        entdata           51157
+        entdata           54059
 
-5.304s seconds elapsed
+5.473s seconds elapsed
 
 
