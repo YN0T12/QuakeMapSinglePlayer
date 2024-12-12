@@ -7,5 +7,6 @@
 4. [Top Down and Gameplay Walkthrough](topdown.md)
 5. [Blockout](blockout.md)
 6. [Playtesting](playtesting.md)
+7. [Lighting and Textures](lighting.md)
 
 [Credits](credits.md)
