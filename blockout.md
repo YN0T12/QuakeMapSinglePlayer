@@ -1,6 +1,6 @@
 # Blockout
 
-## Blockout 1
+## Blockout
 
 [![Video_Thumbnail](https://github.com/YN0T12/QuakeMapSinglePlayer/blob/main/Images/Quake%20Singleplayer%20Blockout%20Lab.PNG)](https://www.youtube.com/watch?v=btxqacL8PsE&ab_channel=YN0T)
 
@@ -12,14 +12,24 @@ Then I followed my original sketches and applied them to the first floor. That p
 
 The final step was the basement to end the level off. I think the slow descent to the basement followed by the reveal of all the tubes of the hard monsters you just fought really scares the player and makes for a good experience. 
 
-## Blockout 2
+## Version 2
 
 [![Video_Thumbnail](https://github.com/YN0T12/QuakeMapSinglePlayer/blob/main/Images/Quake%20Singleplayer%20Blockout%20Lab%202.png)](https://www.youtube.com/watch?v=HFUzl75ELGw&ab_channel=YN0T)
 
-Watch the video above to get a look at the second blockout of this map after the results of the first [Playtest](playtesting.md).
+Watch the video above to get a look at the second iteration of this map after the results of the first [Playtest](playtesting.md).
 
 A few changes were made to the map after the feedback from the playtest. The first thing I changed was the door on the bottom tube to open up from all sides so the enemy is less likely to be cheesed out.
 
 The second and main change I made was to the storage room. Now instead of the fiends overwhelming you and trapping you in the corner, there are now zombies and bomb blocks to introduce you to the grenade launcher and to ease you into the zombies on the second floor.
 
 And finally, I added fewer buttons on the second floor. It seemed too annoying to find 8 buttons in that wide open space so I toned it down to 6 instead and tried to make them more obvious.
+
+## Version 3
+
+[![Video_Thumbnail](https://github.com/YN0T12/QuakeMapSinglePlayer/blob/main/Images/Quake%20Singleplayer%20Blockout%20Lab%203.png)](https://youtu.be/CiIRwjjirkI)
+
+Watch the video above to get a look at the third iteration of this map after the results of the first [Playtest](playtesting.md).
+
+The notable change here is the textures and lighting should now finalized. There was also slight changes to the map made like having less ammo on the first floor and increasing the enemy count on the second.
+
+To get a more in-depth look at the lighting and textures visit the [Lighting and Textures](lighting.md) part of the repo.
