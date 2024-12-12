@@ -3,12 +3,19 @@
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
 
-Input file: C:\Users\yn0tm\OneDrive\Documents\GitHub\QuakeMapSinglePlayer\quake\lab-compile.map
-Output file: C:\Users\yn0tm\OneDrive\Documents\GitHub\QuakeMapSinglePlayer\quake\lab.bsp
+Input file: D:\GitHub\QuakeMapSinglePlayer\quake\lab-compile.map
+Output file: D:\GitHub\QuakeMapSinglePlayer\quake\lab.bsp
 
 INFO: using built-in palette.
 fs::addArchive: WARNING: archive 'C:/quake-leveldesign-starterkit-20241007-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
-fs::addArchive: WARNING: archive 'D:/quake-leveldesign-starterkit-20240930-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
+fs::addArchive: WARNING: archive 'C:/quake-leveldesign-starterkit-20240923-windows/extras/quake/prototype-wad/prototype_basic_1_3.wad' not found
+fs::addArchive: WARNING: archive 'C:/Users/yn0tm/OneDrive/Documents/GitHub/QuakeMapLab/WADs/rmq_trans.wad' not found
+fs::addArchive: WARNING: archive 'C:/Users/yn0tm/OneDrive/Documents/GitHub/QuakeMapLab/WADs/DktE1.wad' not found
+fs::addArchive: WARNING: archive 'C:/Users/yn0tm/OneDrive/Documents/GitHub/QuakeMapLab/WADs/DktE3.wad' not found
+fs::addArchive: WARNING: archive 'C:/Users/yn0tm/OneDrive/Documents/GitHub/QuakeMapLab/WADs/praevus.wad' not found
+fs::addArchive: WARNING: archive 'C:/Users/yn0tm/OneDrive/Documents/GitHub/QuakeMapLab/WADs/kj_ogro_ice.wad' not found
+fs::addArchive: WARNING: archive 'C:/Users/yn0tm/OneDrive/Documents/GitHub/QuakeMapLab/WADs/jug.wad' not found
+fs::addArchive: WARNING: archive 'C:/quake-leveldesign-starterkit-20240923-windows/extras/quake/prototype-wad/prototype_buttons_1_3.wad' not found
      1,557 entities
         49 unique textures
      8,820 texinfos
@@ -74,7 +81,7 @@ Processing hull 1...
 WARNING: Reached occupant "light" at (1344 -1344 -64), no filling performed.
 Processing hull 2...
 WARNING: Reached occupant "light" at (1088 -1664 664), no filling performed.
-WARNING: worldspawn at 0 0 0 has long value for key wad (length 819 >= 127)
+WARNING: worldspawn at 0 0 0 has long value for key wad (length 1207 >= 127)
 LIMITS EXCEEDED ON dclipnode_t::children
 NOTE: limits exceeded for Quake BSP - switching to Quake BSP2
 Writing lab.bsp as Quake BSP2 bsp2
@@ -95,8 +102,8 @@ count   lump name    byte size
      51 textures         591088
         lightdata             0
         visdata               0
-        entdata           54059
+        entdata           54447
 
-5.473s seconds elapsed
+5.123s seconds elapsed
 
 

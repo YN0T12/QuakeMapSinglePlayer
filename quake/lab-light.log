@@ -27,13 +27,14 @@ Final count: 328 lights, 1 suns in use.
 Colored light entities/settings detected: .lit output enabled.
 0 surface light points in use.
 WARNING: a face has exceeded max light styles (4). Use -verbose to find which faces.
+WARNING: a face has exceeded max light styles (4). Use -verbose to find which faces.
 lightmap size (total): 4211040
 Lighting Completed.
 
 Writing lab.lit
 0 switchable light styles (32 max)
 Writing lab.bsp as Quake BSP2 bsp2
-1.267s seconds elapsed
+1.075s seconds elapsed
 302 empty lightmaps
 
 
