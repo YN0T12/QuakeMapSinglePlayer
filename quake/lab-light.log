@@ -5,7 +5,8 @@ INFO: using built-in palette.
 img::ConvertTextures: WARNING: invalid size data for 
 Loading extended texinfo flags from lab.texinfo.json...
 WARNING: entity at (1352 -696 -80) (monster_shambler) has empty key/value "target" ""
-685 entities read, 328 are lights.
+WARNING: brush entity with mins [97 -1559 297] maxs [343 -1201 303] (trigger_secret) has empty key/value "message" ""
+700 entities read, 328 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
@@ -14,8 +15,8 @@ WARNING: entity at (1352 -696 -80) (monster_shambler) has empty key/value "targe
 DecompressAllVis: invalid visofs for leaf 0
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
-	803 sky faces
-	26655 solid faces
+	807 sky faces
+	26866 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 328 initial lights
@@ -27,14 +28,13 @@ Final count: 328 lights, 1 suns in use.
 Colored light entities/settings detected: .lit output enabled.
 0 surface light points in use.
 WARNING: a face has exceeded max light styles (4). Use -verbose to find which faces.
-WARNING: a face has exceeded max light styles (4). Use -verbose to find which faces.
-lightmap size (total): 4211040
+lightmap size (total): 4243840
 Lighting Completed.
 
 Writing lab.lit
 0 switchable light styles (32 max)
 Writing lab.bsp as Quake BSP2 bsp2
-1.075s seconds elapsed
-302 empty lightmaps
+0.919s seconds elapsed
+301 empty lightmaps
 
 
